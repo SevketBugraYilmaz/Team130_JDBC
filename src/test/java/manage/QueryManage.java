@@ -2,18 +2,13 @@ package manage;
 
 public class QueryManage {
 
-    private String query02= "SELECT name FROM u168183796_qaloantec.cron_schedules LIMIT 2";
+    private String query02 = "SELECT name FROM u168183796_qaloantec.cron_schedules LIMIT 2";
 
     private String updateQuery01 = "UPDATE u168183796_qaloantec.users SET mobile = 191282373 WHERE username LIKE '%e_'";
 
     private String updateQuery02 = "UPDATE u168183796_qaloantec.users SET mobile = ? WHERE username LIKE ?";
 
-    private String insertQuery03= "INSERT INTO u168183796_qaloantec.admin_password_resets (id,email,token,status) VALUES (?,?,?,?)";
-
-
-
-
-
+    private String insertQuery03 = "INSERT INTO u168183796_qaloantec.admin_password_resets (id,email,token,status) VALUES (?,?,?,?)";
 
 
     public String getQuery02() {
